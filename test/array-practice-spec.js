@@ -48,11 +48,14 @@ describe ('Array practice', function () {
 
   });
 
+  
   it('`smallerThanCurr`', function () {
 
     expect(smallerThanCurr([8,1,2,2,3])).to.deep.equal([4,0,1,1,3]);
 
   });
+
+
 
   it('`twoSum`', function () {
 
